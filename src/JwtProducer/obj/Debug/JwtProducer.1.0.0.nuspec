@@ -12,6 +12,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\PACKAGE\JwtProducer\src\JwtProducer\bin\Debug\net7.0\JwtProducer.dll" target="lib\net7.0\JwtProducer.dll" />
+    <file src="C:\Users\USER\Desktop\Peckages\src\JwtProducer\bin\Debug\net7.0\JwtProducer.dll" target="lib\net7.0\JwtProducer.dll" />
   </files>
 </package>

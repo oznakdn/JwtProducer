@@ -16,16 +16,16 @@ public static class TokenProducerExtension
         })
         .AddJwtBearer(options =>
         {
-            options.SaveToken = configuration.GetValue<bool>("JwtOptions:SaveToken");
+            options.SaveToken = configuration.GetValue<bool>("JwtOption:SaveToken");
             options.TokenValidationParameters = new()
             {
-                ValidateIssuer = configuration.GetValue<bool>("JwtOptions:ValidateIssuer"),
-                ValidateAudience = configuration.GetValue<bool>("JwtOptions:ValidateAudience"),
+                ValidateIssuer = configuration.GetValue<bool>("JwtOption:ValidateIssuer"),
+                ValidateAudience = configuration.GetValue<bool>("JwtOption:ValidateAudience"),
                 ValidateIssuerSigningKey = true,
-                ValidateLifetime = configuration.GetValue<bool>("JwtOptions:ValidateLifetime"),
-                ValidIssuer = configuration.GetValue<bool>("JwtOptions:ValidateIssuer") == true ? configuration.GetValue<string>("JwtOptions:Isser") : null,
-                ValidAudience = configuration.GetValue<bool>("JwtOptions:ValidateAudience") == true ? configuration.GetValue<string>("JwtOptions:Audience") : null,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetValue<string>("JwtOptions:SigningKey")!)),
+                ValidateLifetime = configuration.GetValue<bool>("JwtOption:ValidateLifetime"),
+                ValidIssuer = configuration.GetValue<bool>("JwtOption:ValidateIssuer") == true ? configuration.GetValue<string>("JwtOptions:Isser") : null,
+                ValidAudience = configuration.GetValue<bool>("JwtOption:ValidateAudience") == true ? configuration.GetValue<string>("JwtOption:Audience") : null,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetValue<string>("JwtOption:SigningKey")!)),
                 ClockSkew = TimeSpan.Zero,
             };
         });

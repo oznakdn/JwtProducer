@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VHS8cRuc5gKLtnkVzl0yLdvwsuIHLYhZwfv25Mj6b6E=",
+  "Source": "Example.WebApi",
+  "BasePath": "_content/Example.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
