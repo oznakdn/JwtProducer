@@ -21,7 +21,6 @@ C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\bin\Debug\net7.0\Swashbuck
 C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\bin\Debug\net7.0\JwtProducer.dll
-C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\bin\Debug\net7.0\JwtProducer.pdb
 C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\obj\Debug\net7.0\Example.WebApi.csproj.AssemblyReference.cache
 C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\obj\Debug\net7.0\Example.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\Desktop\Peckages\Example\Example.WebApi\obj\Debug\net7.0\Example.WebApi.AssemblyInfoInputs.cache

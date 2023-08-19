@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "JwtProducer/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/JwtProducer.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/JwtProducer.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -462,23 +474,24 @@
             "rid": "win"
           }
         }
-      },
-      "JwtProducer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0"
-        },
-        "compile": {
-          "bin/placeholder/JwtProducer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/JwtProducer.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "JwtProducer/1.0.0": {
+      "sha512": "qYD/NXz1w4YjfnmYIuAT0xYLHE4e8L41vmVnmrAPC3qYCdAZE/pXvyBKgm3wDsng3MFbs9CaZ4logqkora5jkg==",
+      "type": "package",
+      "path": "jwtproducer/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "jwtproducer.1.0.0.nupkg.sha512",
+        "jwtproducer.nuspec",
+        "lib/net7.0/JwtProducer.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.0": {
       "sha512": "q2suMVl1gO6rBJkV7rxm0F2sBufValm2RKxY3zoWN4y6cAufDJYmzpLWPKju3kKFJFKNgivWgoTw0dvf4W5QDQ==",
       "type": "package",
@@ -1412,11 +1425,6 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "JwtProducer/1.0.0": {
-      "type": "project",
-      "path": "../../src/JwtProducer/JwtProducer.csproj",
-      "msbuildProject": "../../src/JwtProducer/JwtProducer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1459,11 +1467,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\Peckages\\src\\JwtProducer\\JwtProducer.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\Peckages\\src\\JwtProducer\\JwtProducer.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1476,6 +1480,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "JwtProducer": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.7, )"

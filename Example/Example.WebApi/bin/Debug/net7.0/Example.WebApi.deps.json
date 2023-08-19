@@ -17,6 +17,17 @@
           "Example.WebApi.dll": {}
         }
       },
+      "JwtProducer/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/JwtProducer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
@@ -226,15 +237,7 @@
           }
         }
       },
-      "System.Security.Cryptography.Cng/4.5.0": {},
-      "JwtProducer/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0"
-        },
-        "runtime": {
-          "JwtProducer.dll": {}
-        }
-      }
+      "System.Security.Cryptography.Cng/4.5.0": {}
     }
   },
   "libraries": {
@@ -242,6 +245,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "JwtProducer/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qYD/NXz1w4YjfnmYIuAT0xYLHE4e8L41vmVnmrAPC3qYCdAZE/pXvyBKgm3wDsng3MFbs9CaZ4logqkora5jkg==",
+      "path": "jwtproducer/1.0.0",
+      "hashPath": "jwtproducer.1.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.0": {
       "type": "package",
@@ -438,11 +448,6 @@
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
-    },
-    "JwtProducer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
