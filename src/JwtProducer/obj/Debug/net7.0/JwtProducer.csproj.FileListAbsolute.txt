@@ -1,0 +1,12 @@
+D:\PACKAGE\JwtProducer\src\JwtProducer\bin\Debug\net7.0\JwtProducer.deps.json
+D:\PACKAGE\JwtProducer\src\JwtProducer\bin\Debug\net7.0\JwtProducer.dll
+D:\PACKAGE\JwtProducer\src\JwtProducer\bin\Debug\net7.0\JwtProducer.pdb
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.csproj.AssemblyReference.cache
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.AssemblyInfoInputs.cache
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.AssemblyInfo.cs
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.csproj.CoreCompileInputs.cache
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.dll
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\refint\JwtProducer.dll
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\JwtProducer.pdb
+D:\PACKAGE\JwtProducer\src\JwtProducer\obj\Debug\net7.0\ref\JwtProducer.dll

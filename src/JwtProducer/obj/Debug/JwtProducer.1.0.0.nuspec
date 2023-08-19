@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>JwtProducer</id>
+    <version>1.0.0</version>
+    <authors>JwtProducer</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\PACKAGE\JwtProducer\src\JwtProducer\bin\Debug\net7.0\JwtProducer.dll" target="lib\net7.0\JwtProducer.dll" />
+  </files>
+</package>
