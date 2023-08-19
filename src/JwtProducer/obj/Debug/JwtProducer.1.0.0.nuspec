@@ -3,8 +3,13 @@
   <metadata>
     <id>JwtProducer</id>
     <version>1.0.0</version>
+    <title>JwtProducer</title>
     <authors>JwtProducer</authors>
-    <description>Package Description</description>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>Easy jwt app bundle</description>
+    <repository type="git" url="https://github.com/oznakdn/JwtProducer" />
     <dependencies>
       <group targetFramework="net7.0">
         <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="7.0.0" exclude="Build,Analyzers" />
@@ -13,6 +18,7 @@
   </metadata>
   <files>
     <file src="C:\Users\USER\Desktop\Peckages\src\JwtProducer\bin\Debug\net7.0\JwtProducer.dll" target="lib\net7.0\JwtProducer.dll" />
+    <file src="C:\Users\USER\Desktop\Peckages\LICENSE" target="\LICENSE" />
     <file src="C:\Users\USER\Desktop\Peckages\src\JwtProducer\docs\README.md" target="\README.md" />
   </files>
 </package>
