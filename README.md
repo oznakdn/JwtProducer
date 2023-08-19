@@ -50,7 +50,5 @@ app.UseAuthorization();
     }
 ```
 
-### $\textcolor{green}{\textsf{For Example}}$ 
-<a src ="https://github.com/oznakdn/JwtProducer/tree/main/Example">Example</a>
 
 
