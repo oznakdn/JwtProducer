@@ -38,7 +38,7 @@ app.UseAuthorization();
 
 ### $\textcolor{green}{\textsf{Use in controller}}$ 
 ```
-[Route("api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
