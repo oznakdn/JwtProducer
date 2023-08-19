@@ -12,7 +12,7 @@ Current Packages
 # $\textcolor{blue}{\textsf{HOW TO USE}}$ 
 
 
-### $\textcolor{green}{\textsf{Copy to appsettings and configure the parameters}}$ 
+### $\textcolor{green}{\textsf{Copy to appsettings.json and configure the parameters}}$ 
 
 ```
 "JwtOption": {
