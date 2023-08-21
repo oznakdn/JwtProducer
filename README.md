@@ -9,23 +9,23 @@ Current Packages
 ![Build & Test Main](https://github.com/Blazored/LocalStorage/workflows/Build%20&%20Test%20Main/badge.svg)
 
 
-# $\textcolor{blue}{\textsf{HOW TO USE}}$ 
+<h2>HOW TO USE</h2>
 
 
-### $\textcolor{green}{\textsf{Copy to appsettings.json and configure the parameters}}$ 
+<h4>Copy to appsettings.json and configure the parameters</h4>
 
 ```
 "JwtOption": {
-    "SaveToken": true,
-    "ValidateIssuer": false,
-    "ValidateAudience": false,
-    "ValidateLifetime": true,
-    "Issuer": null,
-    "Audience": null,
-    "SigningKey": "You should be write here your security key!"
+    "SaveToken": true, // true or false
+    "ValidateIssuer": false, // true or false
+    "ValidateAudience": false, // true or false
+    "ValidateLifetime": true, // true or false
+    "Issuer": null, // string
+    "Audience": null, // string
+    "SigningKey": "You should be write here your security key!" // string
   }
 ```
-### $\textcolor{green}{\textsf{Add to program.cs}}$ 
+<h4>Add to program.cs</h4>
 
 ```
 builder.Services.AddJwtProducer(builder.Configuration);
@@ -36,14 +36,15 @@ app.UseAuthentication();
 app.UseAuthorization();
 ```
 
-### $\textcolor{green}{\textsf{Use in controller}}$ 
+<h4>Usage</h4>
+
 ```
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
         private readonly IJwtBuilder _jwtBuilder;
-        public AuthController(AppDbContext dbContext, IJwtBuilder jwtBuilder)
+        public AuthController(IJwtBuilder jwtBuilder)
         {
             _jwtBuilder = jwtBuilder;
         }
