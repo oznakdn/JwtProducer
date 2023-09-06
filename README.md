@@ -14,7 +14,7 @@ Current Packages
 
 <h4>Copy to appsettings.json and configure the parameters</h4>
 
-```
+```csharp
 "JwtOption": {
     "SaveToken": true, // true or false
     "ValidateIssuer": false, // true or false
@@ -31,14 +31,14 @@ Current Packages
 builder.Services.AddJwtProducer(builder.Configuration);
 ```
 
-```
+```csharp
 app.UseAuthentication();
 app.UseAuthorization();
 ```
 
 <h4>Usage</h4>
 
-```
+```csharp
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
